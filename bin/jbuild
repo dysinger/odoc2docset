@@ -8,5 +8,6 @@
 (executable
  ((name main)
   (public_name odoc2docset)
+  (package odoc2docset)
    
   (libraries (sqlite3 odig bos odoc lambdasoup logs base stdio))))

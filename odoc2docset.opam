@@ -18,6 +18,7 @@ description:
   "Generates Dash docsets for OCaml packages using the Odoc documentation generator."
 depends: [
   "dune" {build & >= "1.10"}
+  "bos"
   "logs" {>= "0.6"}
   "base" {>= "v0.12"}
   "stdio" {>= "v0.12"}
